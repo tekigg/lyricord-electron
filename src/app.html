@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+	</head>
+	<body class="" data-sveltekit-preload-data="hover">
+		
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+
+<script>
+	if ("paintWorklet" in CSS) {
+	  CSS.paintWorklet.addModule(
+		"https://www.unpkg.com/css-houdini-squircle/squircle.min.js"
+	  );
+	}
+  </script>
